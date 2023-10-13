@@ -1,0 +1,61 @@
+In .Net Core First we create Models,Then Interfaces where we call all the methods and then we create Services by consuming that Interfaces methods and inside Services we write our logics and then we call that service inside Program.cs and after that in controller we call all the services by consuming services as constructor.
+
+Dependency injection is a design pattern that makes a class independent of its dependencies.And in Dependency Injection we do not rely on complete implementation of a class rather we rely on Interfaces this makes our code more maintainable.
+
+Asp.Net core comes with built in IOC Container.
+
+
+With the help of IActionResult we use the status code quite easily.
+
+DTO's:
+
+We use dto's to send and return data from api.
+
+In enterprise level api's we dont expose model classes.
+
+We have sensitive data in the model classes & dont want to get the unnecessary data.
+
+DTO's are extra model classes in which we'll replicate model class properties.
+
+OData is the open source protocol allows developers to write queryable rest apis.
+
+
+With the help of OData we can enable pagination,search & ordering of data etc.
+
+
+graphql vs rest
+
+Rate limiting can be defined as unlimited, or with a specified number of calls per second,minute,hour,day or week.Rate limits can be "hard" (enforced) or "soft". If the rate limit is hard and a call exceeds the limit, then the call is aborted and an error is returned.
+
+
+MongoDB:
+
+It's a no sql database & it is also a non relational database.
+
+Relational Database:
+
+We have tables,columns rows and even the relation between tables and entities.
+
+Uses structured query language or SQL
+
+MS-SQL,Postgre
+
+Non Relational Database:
+
+We don't have tabular schema of rows and columns.
+
+Based on data structure like documents and collection.
+
+MongoDB
+
+In mongodb we can store complex kind of data in key value pairs.Each record in a mongodb collecton is document
+
+collection is like a table.
+
+Azure Cosmos DB
+
+Its a no SQL Database. It supports multi model service,it can store document,key value pair,relational data and graph model data.
+
+its a microsoft azure service with help of this we can use mongo db inside azure.
+
+
